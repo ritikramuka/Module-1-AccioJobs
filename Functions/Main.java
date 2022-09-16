@@ -114,12 +114,23 @@ class Main
 	   //swap(a, b);
 	   //System.out.println("a -> " + a +" b -> "+ b);
 	   
-	   int[] arr = new int[2];
+	   //int[] arr = new int[2];
 	   // arr[0] -> a, arr[1] -> b;
-	   arr[0] = 10;
-	   arr[1] = 20;
-	   swap2(arr);
-	   System.out.println("a -> " + arr[0] +" b -> "+ arr[1]);
+	   //arr[0] = 10;
+	   //arr[1] = 20;
+	   //swap2(arr);
+	   //System.out.println("a -> " + arr[0] +" b -> "+ arr[1]);
+	   
+	   fun10(10,1,2,3,4,5,6,799);
+	   System.out.println();
+	   fun10(2,34,5,4);
+	}
+	
+	// ... -> varArgs
+	public static void fun10 (String name, int a, int ...v) {
+	    for(int i = 0; i < v.length; i++) {
+	        System.out.print(v[i] + " ");
+	    }
 	}
 	
 	public static void swap2(int[] brr) 
