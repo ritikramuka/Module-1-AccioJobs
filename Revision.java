@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test {
+public class Revision {
     public static void main(String[] args) {
         // int [] arr = {2, 5, 4, 8, 6, 3, 7};
         // int minAbsDiffSum = 0;
